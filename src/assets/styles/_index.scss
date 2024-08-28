@@ -1,0 +1,27 @@
+@import "./header";
+@import "./footer";
+@import "./dashboard";
+
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-30 {
+    width: 30%;
+}

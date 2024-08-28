@@ -1,0 +1,124 @@
+.dashboard {
+    .content {
+        display: flex;
+        padding: 0px 80px;
+        justify-content: space-between;
+
+        .product-info-container {
+
+            .in-stock-label {
+                color: rgba(218, 96, 52, 1);
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 24.52px;
+            }
+
+            .title {
+                font-weight: 700px;
+                font-size: 54px;
+                line-height: 56.16px;
+                color: rgba(0, 0, 0, 1);
+                margin: 10px 0px;
+            }
+
+            .review-label {
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 21.79px;
+                color: rgba(0, 0, 0, 1);
+                margin-right: 16px;
+            }
+
+            .desc {
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 25.2px;
+                color: rgba(79, 79, 79, 1)
+            }
+
+        }
+
+        .configurations {
+
+            .label {
+                font-weight: 800;
+                font-size: 16px;
+                line-height: 21.79px;
+                color: rgba(0, 0, 0, 1);
+                text-transform: uppercase;
+            }
+
+            .chips-container {
+
+                display: flex;
+                align-items: center;
+
+
+                :nth-child(2) {
+                    margin: 0px 20px;
+                }
+
+                .chip {
+                    border: 2px solid rgba(235, 235, 235, 1);
+                    border-radius: 40px;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 21.79px;
+                    color: rgba(0, 0, 0, 1);
+                    text-transform: uppercase;
+                    width: 96px;
+                    height: 41px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-top: 10px
+                }
+
+                .border-red {
+                    border-color: rgba(218, 96, 52, 1);
+                }
+
+            }
+
+            .mt-4 {
+                margin-top: 40px;
+            }
+
+
+            .circles {
+
+                .circle-container {
+                    display: block;
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-top: 10px;
+                    margin-right: 10px;
+
+                    .item {
+                        display: block;
+                        width: 28px;
+                        height: 28px;
+                        border-radius: 100%;
+                        background-color: red;
+                    }
+                }
+
+                .selected {
+                    border: 2px solid rgba(218, 96, 52, 1);
+                }
+
+            }
+
+        }
+
+    }
+
+    .footer-container {
+        padding: 0px 80px;
+    }
+
+}
